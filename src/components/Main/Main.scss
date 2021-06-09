@@ -1,0 +1,58 @@
+.main {
+  width: 100%;
+  min-height: 96vh;
+  background: url('../../image/mainBgOne.jpeg') no-repeat top/cover;
+  display: flex;
+  position: relative;
+  .container {
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+  }
+  @media (max-width: 965px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+}
+.mainInfo {
+  h3 {
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 24px 0;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 21px;
+  }
+  .btn {
+    margin: 32px 0 0 0;
+    padding: 15px 50px;
+    &:hover {
+      background: transparent;
+      color: #ff1414;
+      border: 1px solid #ff1414;
+    }
+  }
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 641px) and (max-width: 965px) {
+    h1 {
+      font-size: 80px;
+    }
+  }
+}

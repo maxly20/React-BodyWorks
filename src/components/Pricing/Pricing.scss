@@ -1,0 +1,88 @@
+.pricing {
+  width: 100%;
+  padding: 140px 0;
+  background: #000;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+  }
+  @media (max-width: 650px) {
+    .title {
+      padding: 0 40px;
+    }
+  }
+  @media (max-width: 799px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 1189px) {
+    .container {
+      max-width: 90%;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 1190px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+}
+.pricingCard {
+  width: 100%;
+  max-width: 32%;
+  padding: 40px 0;
+  background: #1a1a1a;
+  border: 1px solid transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: border 600ms ease-in-out;
+  &:hover {
+    border: 1px solid #ff1414;
+  }
+  @media (max-width: 799px) {
+    max-width: 520px;
+    margin-bottom: 26px;
+  }
+  @media (min-width: 800px) and (max-width: 1189px) {
+    max-width: 48%;
+    margin-bottom: 26px;
+  }
+}
+.pricingInfo {
+  padding-top: 30px;
+  p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 26px;
+    &:nth-child(3),
+    &:nth-child(4) {
+      color: #7a838b;
+    }
+  }
+  .btn {
+    margin: 20px 0 0 0;
+    &:hover {
+      background: transparent;
+      color: #ff1414;
+      border: 1px solid #ff1414;
+    }
+  }
+}
+.pricingTitle {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #313131;
+  h3 {
+    font-size: 28px;
+    color: #fff;
+    line-height: 1;
+  }
+  h5 {
+    color: #ff1414;
+    font-size: 26px;
+    margin: 14px 0 0 0;
+    line-height: 1;
+  }
+}

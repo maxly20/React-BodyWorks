@@ -1,0 +1,19 @@
+.bannerOffer {
+  width: 100%;
+  padding: 240px 0;
+  text-align: center;
+  background: url('../../image/bigOfferBg.webp') no-repeat center/cover;
+  color: #fff;
+  h2 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .btn {
+    margin: 30px 0 0 0;
+    &:hover {
+      background: transparent;
+      color: #ff1414;
+      border: 1px solid #ff1414;
+    }
+  }
+}
