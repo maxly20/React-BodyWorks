@@ -8,11 +8,7 @@ const Footer = () => (
     <FooterCardContainer />
     <Container>
       <p>
-        Copyright &copy;2021 All rights reserved | This Website is made with{' '}
-        <i className='far fa-heart'></i> by{' '}
-        <a href='#/' target='_blank' rel='noopener noreferrer'>
-          Max Ly
-        </a>
+        Copyright &copy;2021 BodyWorks. All rights reserved.
       </p>
     </Container>
   </footer>
